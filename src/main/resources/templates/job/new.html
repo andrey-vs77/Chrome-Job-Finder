@@ -1,0 +1,4 @@
+<span th:text="'message : '+${message}" xmlns:th="http://www.w3.org/1999/xhtml"></span>
+<!--<span th:if="${#fields.hasErrors('answer1')}" th:text="Male"  xmlns:th="http://www.w3.org/1999/xhtml" />-->
+<span th:text="${answer1} ? ${answer1.name} : 'null value!'" xmlns:th="http://www.w3.org/1999/xhtml"></span>
+
